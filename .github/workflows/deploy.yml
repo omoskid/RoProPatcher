@@ -29,14 +29,11 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "ik"
-
-      - name: Build step
-        run: "idk"
+        run: "npm install"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "omoskid-ropropatche-15"
           entrypoint: ""
-          root: ""
+          root: "C:\Users\ntosa"
