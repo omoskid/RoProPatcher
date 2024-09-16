@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "omoskid-ropropatche-15"
-          entrypoint: "ceab9cbea7a3fb964be74e8075cf9e72"
-          root: "niggaidk"
+          entrypoint: ""
+          root: ""
